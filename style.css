@@ -130,3 +130,13 @@ nav ul li a {
     font-weight: bold;
 }
 
+.zoom-wrapper {
+  overflow: hidden;
+  touch-action: none;
+  cursor: grab;
+}
+
+.zoom-wrapper img {
+  transform-origin: center center;
+  cursor: grab;
+}
